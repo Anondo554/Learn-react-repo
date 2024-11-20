@@ -15,6 +15,7 @@ import Icone from "./assets/image/icone.png";
 import Icone1 from "./assets/image/icone2.png";
 import Icone2 from "./assets/image/icone3.png";
 import Video from "./assets/image/video.png";
+import Logos from "./assets/image/icone4.png";
 import Container from "./component/Container";
 import Flex from "./component/Flex";
 import Image from "./component/Image";
@@ -23,6 +24,7 @@ import Button from "./component/Button";
 import Hedding from "./component/Hedding";
 import { IoIosStar } from "react-icons/io";
 import { RiSingleQuotesL } from "react-icons/ri";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -530,7 +532,7 @@ function App() {
           />
         </div>
         <Container>
-          <Flex className={'justify-between space-x-6'}>
+          <Flex className={"justify-between space-x-6"}>
             <div className="shadow-2xl p-8 w-[460px]">
               <Hedding
                 text={"Great Platform "}
@@ -547,7 +549,11 @@ function App() {
               />
               <hr className="border-1 border-[#B1B3B6] pb-4" />
               <div className="flex">
-                <Image src={Icone} alt={Icone} className={'w-[61px] h-[61px]'}/>
+                <Image
+                  src={Icone}
+                  alt={Icone}
+                  className={"w-[61px] h-[61px]"}
+                />
                 <div className="pb-10">
                   <Hedding
                     text={"Beth Luna "}
@@ -582,7 +588,11 @@ function App() {
               />
               <hr className="border-1 border-[#B1B3B6] pb-4" />
               <div className="flex">
-                <Image src={Icone1} alt={Icone1} className={'w-[61px] h-[61px]'}/>
+                <Image
+                  src={Icone1}
+                  alt={Icone1}
+                  className={"w-[61px] h-[61px]"}
+                />
                 <div className="pb-10">
                   <Hedding
                     text={"Belinda Gomez"}
@@ -617,7 +627,11 @@ function App() {
               />
               <hr className="border-1 border-[#B1B3B6] pb-4" />
               <div className="flex">
-                <Image src={Icone2} alt={Icone2} className={'w-[61px] h-[61px]'}/>
+                <Image
+                  src={Icone2}
+                  alt={Icone2}
+                  className={"w-[61px] h-[61px]"}
+                />
                 <div className="pb-10">
                   <Hedding
                     text={"Howard Clayton"}
@@ -642,8 +656,121 @@ function App() {
       {/* revew part end  */}
 
       {/* footer part start  */}
-      <section>
-        
+      <section className="pt-[130px] pb-[50px] bg-[#0166FF]">
+        <Container>
+          <Flex className={"justify-between pb-[170px]"}>
+            <div>
+              <Image src={Logos} alt={Logos} className={"pb-[33px]"} />
+              <Hedding
+                text={"Follow on social service "}
+                as={"h4"}
+                className={"text-[25px] font-medium text-[#FFFFFF] font-pop"}
+              />
+              <div className="flex space-x-6 pt-[23px]">
+                <FaFacebook className="w-[37px] h-[34px]" />
+                <FaInstagram className="w-[37px] h-[34px]" />
+              </div>
+            </div>
+            <div>
+              <Hedding
+                text={"Links"}
+                as={"h4"}
+                className={
+                  "text-[30px] font-bold text-[#FFFFFF] font-Roboto pb-[20px]"
+                }
+              />
+              <Hedding
+                text={"Home"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"Help center"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"Service"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+            </div>
+            <div>
+              <Hedding
+                text={"Resource"}
+                as={"h4"}
+                className={
+                  "text-[30px] font-bold text-[#FFFFFF] font-Roboto pb-[20px]"
+                }
+              />
+              <Hedding
+                text={"About Us"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"Carrier"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"Legal Notice"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+            </div>
+            <div>
+              <Hedding
+                text={"Contacts"}
+                as={"h4"}
+                className={
+                  "text-[30px] font-bold text-[#FFFFFF] font-Roboto pb-[20px]"
+                }
+              />
+              <Hedding
+                text={"Tongi, Dhaka"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"Support "}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+              <Hedding
+                text={"01826339098"}
+                as={"h4"}
+                className={
+                  "text-[20px] font-medium text-[#FFFFFF] font-pop pb-[38px]"
+                }
+              />
+            </div>
+          </Flex>
+          <hr />
+          <Hedding
+            text={"Copyright 2020@ all right"}
+            as={"h4"}
+            className={
+              "text-[20px] text-[#FFFFFF] font-Roboto pt-[30px] text-center"
+            }
+          />
+        </Container>
       </section>
       {/* footer part end  */}
     </>
