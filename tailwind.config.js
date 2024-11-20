@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         pop:["Poppins"],
-        Karma: ["Karma"]
+        Karma: ["Karma"],
+        Roboto: ["Roboto Slab"]
       }
     },
   },
